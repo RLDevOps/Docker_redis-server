@@ -6,7 +6,7 @@ RUN echo "deb http://archive.ubuntu.com/ubuntu precise main universe" >> /etc/ap
 RUN apt-get update
 
 RUN apt-get install -y apache2
-RUN apt-get install telnet redis-server
+RUN apt-get install -y telnet redis-server
 
 
 
